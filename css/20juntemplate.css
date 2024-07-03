@@ -1,0 +1,155 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box
+{
+    width: 80%;
+    min-height: 500px;
+    border: 2px solid red;
+    
+    margin: auto;
+}
+.box .main-header-div
+{
+    width: 100%;
+    height: 40px;
+}
+.main-header-div .call-info
+{
+    width:20%;
+    float:left
+}
+.main-header-div .time-info
+{
+    width: 20%;
+    float: left;
+}
+.main-header-div .mail-info
+{
+    width:30%;
+    float:right
+}
+.box .header-section
+{
+    width: 100%;
+    height: 250px;
+    background-image: -webkit-linear-gradient(#0F2027,#203A43,#2C5364);
+}
+.header-section .head-top
+{
+    width:100%;
+    height: 40px;
+}
+.head-top .company
+{
+width: 25%;
+height: 40px;
+margin-top:5px;
+margin-left: 10px;
+float: left;
+}
+.company h2{
+    color: white;
+}
+.head-top .menu
+{
+    width: 65%;
+    height: 40px;
+    float: right;
+    margin-top:10px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.menu a:hover
+{
+    background-color: blue;
+    color: white;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.header-section .contact-info
+{
+    width: 50%;
+    height: 200px;
+    margin: auto;
+}
+.contact-info h1{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size:40px;
+    padding-top: 80px;
+}
+.contact-info a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin-left: 120px;
+    padding:2px;
+}
+.box .media
+{
+    width: 95%;
+    height: 200px;
+    margin: auto;
+   margin-top: 10px;
+}
+.media .social
+{
+    width: 30%;
+    height: 200px;
+    float:left;
+    background-color:lightgrey;
+    margin-left:22px ;
+}
+.media .social:nth-child(2)
+{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.social i{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 160px;
+}
+.social h1,h3{
+    text-align: center;
+}
+.box .project
+{
+    width: 90%;
+    height: 300px;
+    margin: auto;
+   margin-top: 10px;
+}
+.project .photo
+{
+    width: 50%;
+    height: 300px;
+    float: left;
+}
+.photo img{
+    width: 100%;
+    height: 100%;
+}
+.project .form
+{
+    width: 50%;
+    height: 300px;
+    float: left;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.form p{
+    color:#09e6ed;
+}

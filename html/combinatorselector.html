@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+ <head>
+<title>Combinator Selectors</title>
+<style>
+*{
+  background-color:#27ccf5;
+ }
+div h2{
+    background-color:RGB(85, 250, 242);
+    color:red;
+}
+.division>pre{
+    color:#1c1275;
+    font-size:20px;
+    }
+div+pre{
+    background-color:#2ff211;
+     }
+
+div~p{
+    background-color:#f21137;
+     }
+
+
+</style>
+</head>
+<body>
+<div>
+<div>
+<h2>
+This is First Division</h1>
+<pre>
+Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages.
+
+ HTML describes the structure of a web page semantically and originally included cues for its appearance.
+</pre>
+</div>
+
+<div>
+<h2>
+This is Second Division</h2>
+<pre>
+<b>HTML can embed programs written in a scripting language such as JavaScript, which affects the behavior and content of web pages. The inclusion of CSS defines the look and layout of content. 
+The World Wide Web Consortium (W3C), former maintainer of the HTML and current maintainer of the CSS standards, has encouraged the use of CSS over explicit presentational HTML since 1997.
+</b>
+</pre>
+</div>
+
+<div class="division">
+<h3>
+This is Third Division</h3>
+<pre>
+<i><u>HTML can embed programs written in a scripting language such as JavaScript, which affects the behavior and content of web pages. The inclusion of CSS defines the look and layout of content. 
+The World Wide Web Consortium (W3C), former maintainer of the HTML and current maintainer of the CSS standards, has encouraged the use of CSS over explicit presentational HTML since 1997.
+</u>
+</i>
+</pre>
+</div>
+<pre>This Outside First Paragraph </pre>
+<pre>This is  outside Second Paragraph</pre>
+<pre>This is  outside Third Paragraph</pre>
+ <pre>This is  outside Fourth Paragraph</pre>
+</div>
+
+</div>
+<p>This Outside First Paragraph</p>
+    <p>This is  Last Paragraph1</p>
+    <p><h1>This is Second Last Paragraph</h1></p>
+    <p>This is Last Paragraph</p>
+</div>
+
+</div>
+</body>
+</html>

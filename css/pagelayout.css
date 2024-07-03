@@ -1,0 +1,26 @@
+*{
+  
+  padding:0px;
+  margin:0px;
+}
+.maindiv{
+width: 80%;
+border: 3px solid #000;
+min-height: 100px;
+margin:auto;
+
+}
+
+.header
+{
+background-color:#25c8fa;
+width:100%;
+min-height: 80px;}
+
+
+.cheader{
+ float:left;
+}
+.clogo{
+ float:right;
+}

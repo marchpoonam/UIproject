@@ -1,0 +1,145 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box-main{
+    width:60%;
+    min-height: 500px;
+    margin: 20px auto;
+    background-image: linear-gradient(to right, #536976,#292E49);
+    border-radius: 20px;
+    border: 2px solid salmon;
+}
+.box-main .box{
+
+    width:95%;
+    min-height: 500px;
+    margin: 10px auto;
+    margin-bottom: 10px;
+    background-image: linear-gradient(to right, #536976,#292E49);
+    border-radius: 20px;
+    border: 2px solid lightslategray;
+}
+.main-header
+{
+width: 100%;
+height: 60px;
+margin-top: 10px;
+padding: 10px;
+}
+.main-header .company
+{
+width: 25%;
+float: left;
+color: white;
+}
+.main-header .menu
+{
+width: 45%;
+float: left;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.main-header .searching
+{
+width: 25%;
+float: right;
+}
+.searching input[type=text]
+{
+    background-color: #292E49;
+    color: white;
+    width: 100%;
+    height: 25px;
+    border-radius: 10px;
+
+}
+.main-body
+{
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+}
+.main-body .info-class
+{
+    width: 45%;
+    float:left;
+    padding: 20px;
+}
+.info-class h6{
+    margin-top: 50px;
+    font-size: 0.8em;
+}
+.info-class h2,p,h6{
+    color: white;
+    margin-top: 20px;
+}
+.info-class h2 mark{
+    color: blue;
+    background-color: #536976;
+}
+.info-class button
+{
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    width: 30%;
+    opacity: 0.9;
+    margin-left: 20px;
+    padding: 5px;
+    
+}
+.main-body .form1
+{
+    width: 45%;
+    min-height:300px;
+    float: right;
+    padding: 20px;
+}
+.form1 h1{
+    color: white;
+}
+.login-form input[type=text], input[type=password] {
+    width: 100%;
+    padding: 10px;
+    background-color: #536976;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.member
+{
+    width: 100%;
+    height: 25px;
+}
+.member p{
+    width: 45%;
+    height:25px ;
+    color: white;
+    margin-top: 10px;
+    margin-left: 100px;
+    float: left;
+}
+.member a{
+width: 20%;
+height: 25px;
+float: right;
+margin-top: 10px;
+color:blue;
+text-decoration: none;
+
+}
+.login-form button
+{
+    width:100%;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+}
